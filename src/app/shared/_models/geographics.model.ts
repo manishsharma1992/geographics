@@ -1,10 +1,4 @@
-export class Geographics {
-    countries!: Country[];
-    states!: State[];
-    cities!: City[];
-  }
-  
-  export class Country {
+export class Country {
     id!: number;
     name!: string;
     iso2!: string;
